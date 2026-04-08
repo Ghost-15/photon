@@ -31,7 +31,7 @@ export default function Navbar() {
                 className={`fixed left-0 top-0 w-full z-50 transition-all duration-500 ${
                     scrolled
                         ? "bg-white shadow-lg"
-                        : "bg-white/90 backdrop-blur-md"
+                        : "bg-transparent backdrop-blur-md"
                 }`}
             >
                 <div className="max-w-7xl mx-auto px-6 flex items-center justify-between h-20">
