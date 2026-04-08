@@ -13,7 +13,7 @@ export default function Navbar() {
 
     // Scroll effect
     useEffect(() => {
-        const handleScroll = () => setScrolled(window.scrollY >= 80);
+        const handleScroll = () => setScrolled(window.scrollY >= 90);
         window.addEventListener("scroll", handleScroll);
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
@@ -43,8 +43,7 @@ export default function Navbar() {
                             alt="Photon Logo"
                             width={160}
                             height={60}
-
-                            className="object-contain"
+                            className="object-contain bg-red-500"
                         />
                     </Link>
 
