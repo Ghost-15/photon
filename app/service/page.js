@@ -60,7 +60,7 @@ export default function Services() {
                     <div className="relative">
                         <div className="absolute -inset-4 bg-blue-50 rounded-3xl -rotate-2" />
                         <img
-                            src="/wellTesting.png"
+                            src="https://ghost-15.github.io/photon/wellTesting.png"
                             alt="Well Testing"
                             className="relative rounded-2xl w-full object-cover shadow-xl"
                         />

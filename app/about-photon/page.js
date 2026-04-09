@@ -122,7 +122,7 @@ export default function About() {
                     <div className="relative">
                         <div className="absolute -inset-4 bg-blue-50 rounded-3xl -rotate-2" />
                         <img
-                            src="/Wireline_Cable.jpg"
+                            src="https://ghost-15.github.io/photon/Wireline_Cable.jpg"
                             alt="Wireline Cable"
                             className="relative rounded-2xl w-full object-cover shadow-xl"
                         />
@@ -190,7 +190,7 @@ export default function About() {
                         <div className="relative">
                             <div className="absolute -inset-4 bg-slate-100 rounded-3xl rotate-2" />
                             <img
-                                src="/ourValues.jpg"
+                                src="https://ghost-15.github.io/photon/ourValues.jpg"
                                 alt="Our Values"
                                 className="relative rounded-2xl w-full object-cover shadow-xl"
                             />
