@@ -44,8 +44,11 @@ export default function Navbar() {
                             width={160}
                             height={60}
                             priority
-                            unoptimized
-                            className="object-contain"
+                        />
+                        <Image
+                            src="/public/photon_logo_TG.png"
+                            alt="Photon Logo"
+                            priority
                         />
                     </Link>
 

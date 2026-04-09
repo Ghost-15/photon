@@ -2,13 +2,6 @@ import "./globals.css";
 import Navbar from "@/compoments/Navbar";
 import Footer from "@/compoments/Footer";
 
-export const metadata = {
-  title: "Photon SARL",
-  description: "Oil & Gas Services",
-  icons: {
-    icon: "/photon_logo.png",
-  },
-};
 
 export default function RootLayout({ children }) {
   return (
