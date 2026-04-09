@@ -171,7 +171,7 @@ export default function About() {
                             <span className="text-blue-600 font-semibold text-sm tracking-widest uppercase">What Drives Us</span>
                             <h2 className="mt-3 text-4xl font-bold text-slate-900 mb-4">Our Values</h2>
                             <p className="text-slate-500 mb-10 leading-relaxed">
-                                Three pillars shape how we work, grow, and serve our clients every day.
+                                Six pillars shape how we work, grow, and serve our clients every day.
                             </p>
                             <div className="space-y-6">
                                 {values.map(({ icon, title, desc }) => (
