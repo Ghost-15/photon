@@ -39,16 +39,10 @@ export default function Navbar() {
                     {/* LOGO */}
                     <Link href="/" className="flex items-center">
                         <Image
-                            src="/photon_logo_TG.png"
+                            src="https://ghost-15.github.io/photon/photon_logo_TG.png"
                             alt="Photon Logo"
                             width={160}
                             height={60}
-                            priority
-                        />
-                        <Image
-                            src="/public/photon_logo_TG.png"
-                            alt="Photon Logo"
-                            priority
                         />
                     </Link>
 

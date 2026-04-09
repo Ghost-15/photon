@@ -8,7 +8,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
     <head>
       <meta charSet="UTF-8"/>
-      <link rel="icon" href="/photon_logo.png"/>
+      <link rel="icon" href="https://ghost-15.github.io/photon/photon_logo.png"/>
     </head>
 
     <body>
