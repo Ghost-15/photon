@@ -15,20 +15,25 @@ export default function Services() {
                     className="absolute inset-0 bg-cover bg-center"
                     style={{
                         backgroundImage:
-                            "url('https://images.unsplash.com/photo-1581091870622-df7a9b5c1c9d?auto=format&fit=crop&w=1740&q=80')",
+                            "url('https://ghost-15.github.io/photon/wellTesting.png')",
                     }}
                 />
                 <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-900/70 to-transparent" />
 
                 <div className="relative z-10 max-w-7xl mx-auto px-6">
                     <h1 className="text-5xl md:text-6xl font-extrabold text-white leading-tight mb-4">
-                        Our <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Services</span>
+                        Know Your Reservoir.{" "}
+                        <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">
+                Make the Right Call.
+            </span>
                     </h1>
                     <p className="text-xl text-slate-300 max-w-xl leading-relaxed">
-                        Delivering safe, precise and reliable well testing solutions across Congo and the region.
+                        From surface sampling to extended production tests — Photon delivers precise reservoir data
+                        so you can invest with confidence across onshore, offshore and deepwater operations.
                     </p>
                 </div>
             </section>
+
 
             {/* ── ABOUT WELL TESTING ── */}
             <section className="bg-white py-24 px-4">
@@ -68,9 +73,10 @@ export default function Services() {
                 </div>
             </section>
 
+
             {/* ── SURFACE WELL TESTING ── */}
             <section className="bg-slate-900 py-24 px-4">
-                <div className="max-w-7xl mx-auto">
+                <div className="max-w-6xl mx-auto">
                     <div className="text-center mb-10">
                         <span className="text-blue-400 font-semibold text-sm tracking-widest uppercase">Surface Operations</span>
                         <h2 className="mt-2 text-4xl font-bold text-white">Surface Well Testing & Sampling</h2>
@@ -107,8 +113,72 @@ export default function Services() {
             </section>
 
 
-            {/* ── PROCESS STEPS WITH SCHEMAS ── */}
+            {/* ── SERVICE ── */}
             <section className="bg-slate-900 py-15 px-4">
+                <div className="max-w-6xl mx-auto">
+
+                    {/* Title */}
+                    <div className="text-center mb-14">
+                        <span className="text-blue-400 font-semibold text-sm tracking-widest uppercase">What We Do</span>
+                        <h2 className="mt-2 text-4xl font-bold text-white">Services</h2>
+                    </div>
+
+                    <div className="flex flex-col gap-6">
+
+                        {/* Intro */}
+                        <div className="p-6 rounded-2xl bg-slate-800 border border-slate-700">
+                            <p className="text-slate-400 text-lg leading-relaxed">
+                                Well testing provides invaluable information for exploration and production professionals,
+                                including underground gas storage operations. Through precise design, execution and evaluation,{' '}
+                                <strong className="text-slate-200 font-medium">
+                                    Photon measures and delivers key insights into the true value of the reservoir
+                                </strong>{' '}
+                                under dynamic conditions.
+                            </p>
+                        </div>
+
+                        {/* Two cards */}
+                        <div className="grid md:grid-cols-2 gap-6">
+                            <div className="p-6 rounded-2xl bg-slate-800 border border-slate-700 border-t-2 border-t-blue-500">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <p className="text-slate-200 font-medium text-lg">
+                                        Surface Well Testing & Sampling Services
+                                    </p>
+                                </div>
+                                <p className="text-slate-400 text-base leading-relaxed">
+                                    Photon deploys modern well testing systems featuring H₂S‑rated triphase separators
+                                    and surge tanks. We use measurement units from world-leading manufacturers to acquire
+                                    critical data during production tests —{' '}
+                                    <strong className="text-slate-300 font-medium">
+                                        pressure, temperature, water, oil and gas volumes.
+                                    </strong>
+                                </p>
+                            </div>
+
+                            <div className="p-6 rounded-2xl bg-slate-800 border border-slate-700 border-t-2 border-t-sky-500">
+                                <div className="flex items-center gap-3 mb-3">
+                                    <p className="text-slate-200 font-medium text-lg">
+                                        Extended Well Tests & Early Production
+                                    </p>
+                                </div>
+                                <p className="text-slate-400 text-base leading-relaxed">
+                                    Extended well tests provide insight into the{' '}
+                                    <strong className="text-slate-300 font-medium">
+                                        long-term behavior of the reservoir.
+                                    </strong>{' '}
+                                    This valuable data forms the foundation for defining an optimal production regime,
+                                    reducing uncertainties and maximizing return on investment.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+            {/* ── PROCESS STEPS WITH SCHEMAS ── */}
+            <section className="bg-slate-900 py-24 px-4">
                 <div className="max-w-6xl mx-auto">
 
                     {/* Title */}
@@ -163,7 +233,7 @@ export default function Services() {
 
 
             {/* ── EQUIPMENT ── */}
-            <section className="bg-slate-900 py-24 px-4">
+            <section className="bg-slate-900 py-14 px-4">
                 <div className="max-w-7xl mx-auto">
                     <div className="text-center mb-14">
                         <span className="text-blue-400 font-semibold text-sm tracking-widest uppercase">Our Tools</span>

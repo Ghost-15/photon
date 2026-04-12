@@ -20,7 +20,7 @@ export default function Navbar() {
 
     const navLinks = [
         { href: "/", label: "Home" },
-        { href: "/service", label: "Service" },
+        { href: "/testing", label: "Testing" },
         { href: "/about-photon", label: "About Photon" },
         { href: "/contact", label: "Contact" },
     ];

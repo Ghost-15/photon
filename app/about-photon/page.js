@@ -101,9 +101,13 @@ export default function About() {
                         <span className="text-blue-600 font-semibold text-sm tracking-widest uppercase">Who We Are</span>
                         <h2 className="mt-3 text-4xl font-bold text-slate-900 mb-6">Photon SARL</h2>
                         <p className="text-slate-600 leading-relaxed mb-6">
-                            Photon is a service company specialized in well testing.
+                            The first and unique Wireline & Slickline Congolese company,
+                            Photon is made of Engineers and Technicians with big local
+                            and international oilfield service experience for onshore, offshore,
+                            and deepwater operations.
                         </p>
                         <p className="text-slate-600 leading-relaxed mb-8">
+                            We also specialized in well testing,
                             Certified ISO 14001:2015, ISO 9001:2015, and ISO 45001:2018, Photon is a leading,
                             technology‑driven, and customer‑focused organization. Our operations are fully automated,
                             reflecting our commitment to leveraging technology to deliver excellence.
